@@ -1,0 +1,26 @@
+Sunrise Diagnostic Laboratory
+123 Health Street, Wellness City
+
+Patient Name: Ramesh Patel
+Age: 54 yrs
+Sex: Male
+Date: 15/09/2026
+Dr. Anjali Sharma
+
+FOLLOW-UP BLOOD PANEL (3 months later)
+
+Hemoglobin 12.1 g/dL 13.0-17.0
+WBC 9200 cells/uL 4000-11000
+Platelet 210000 cells/uL 150000-450000
+Creatinine 2.1 mg/dL 0.6-1.3
+Urea 38 mg/dL 7-20
+SGPT 45 U/L 7-56
+Cholesterol 205 mg/dL 0-200
+HDL 42 mg/dL 40-60
+Triglycerides 160 mg/dL 0-150
+Glucose 105 mg/dL 70-100
+HbA1c 5.9 % 4.0-5.6
+TSH 4.5 uIU/mL 0.4-4.0
+
+Notes: Improvement noted since last visit. Continue current
+treatment plan and lifestyle changes.

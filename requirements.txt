@@ -1,0 +1,64 @@
+# ============================================================
+# MediLens - Dependency List
+# ============================================================
+# Grouped by purpose so it's easy to understand WHY each
+# package is here. Install with: pip install -r requirements.txt
+# ============================================================
+
+# --- Backend Framework ---
+fastapi==0.115.0
+uvicorn[standard]==0.30.6          # ASGI server that runs FastAPI
+
+# --- Frontend ---
+streamlit==1.38.0
+
+# --- Database & ORM ---
+sqlalchemy==2.0.35
+python-dotenv==1.0.1                # Loads secrets from a .env file
+
+# --- Authentication ---
+python-jose[cryptography]==3.3.0    # Creates/verifies JWT tokens
+passlib[bcrypt]==1.7.4              # Hashes passwords safely
+bcrypt==4.0.1                       # Pinned: passlib 1.7.4 breaks on bcrypt>=4.1
+
+# --- OCR (Optical Character Recognition) ---
+easyocr==1.7.2
+pymupdf==1.24.10                    # Also known as "fitz", reads PDFs
+pdfplumber==0.11.4                  # Extracts tables from PDFs
+pillow==10.4.0                      # Image processing
+
+# --- Document parsing ---
+python-docx==1.1.2                  # Reads .docx files
+
+# --- Machine Learning ---
+scikit-learn==1.5.2
+numpy==1.26.4
+pandas==2.2.3
+
+# --- LLM & RAG ---
+langchain==0.3.3
+langchain-community==0.3.2
+sentence-transformers==3.1.1        # Turns text into embeddings
+faiss-cpu==1.9.0                    # Vector similarity search
+
+# --- LLM Provider SDKs (only the ones actually configured get used) ---
+google-generativeai==0.8.2
+anthropic==0.34.2
+openai==1.51.0
+
+# --- Visualization ---
+plotly==5.24.1
+
+# --- Testing ---
+pytest==8.3.3
+
+# --- Voice Assistant (Feature #13) ---
+gtts==2.5.3                          # Text-to-speech
+SpeechRecognition==3.10.4            # Speech-to-text
+pydub==0.25.1                        # Audio format conversion (requires ffmpeg installed on system)
+
+# --- Utilities ---
+python-multipart==0.0.9             # Needed by FastAPI for file uploads
+pydantic==2.9.2
+pydantic-settings==2.5.2
+email-validator==2.2.0              # Required by pydantic's EmailStr type
