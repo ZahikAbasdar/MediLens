@@ -2,18 +2,12 @@
 
 > **AI-Powered Medical Report Analysis & Health Intelligence Platform**
 
-```{=html}
-<p align="center">
-```
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Google-Gemini-4285F4?logo=google)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-```{=html}
-</p>
-```
 ## 🌟 Overview
 
 **MediLens** is a full-stack AI healthcare platform that transforms
@@ -148,18 +142,6 @@ GEMINI_API_KEY=YOUR_API_KEY
 SECRET_KEY=YOUR_SECRET_KEY
 ```
 
-------------------------------------------------------------------------
-
-# 📸 Screenshots
-
-Replace these placeholders with your own screenshots.
-
--   Login
--   Dashboard
--   Upload
--   Organ Explorer
--   AI Chatbot
--   Trend Analysis
 
 ------------------------------------------------------------------------
 
