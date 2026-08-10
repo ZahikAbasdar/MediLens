@@ -164,7 +164,7 @@ changes.
 
 # 👨‍💻 Author
 
-**Zahik Abasdar**
+**Zahik Abas dar**
 
 GitHub: https://github.com/ZahikAbasdar
 
